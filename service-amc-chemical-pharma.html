@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMC Services of Chemical and Pharmaceutical Plants - NovaCorp Solutions</title>
+  <meta name="description" content="Annual maintenance contract services for chemical and pharmaceutical plants to maintain uptime, safety, and performance by NovaCorp Solutions." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    .cursor{position:fixed;width:12px;height:12px;background:#5cb85c;border-radius:50%;pointer-events:none;z-index:99999;transform:translate(-50%,-50%);transition:width .2s,height .2s,opacity .2s;mix-blend-mode:multiply}
+    .cursor-ring{position:fixed;width:38px;height:38px;border:1.5px solid rgba(92,184,92,.5);border-radius:50%;pointer-events:none;z-index:99998;transform:translate(-50%,-50%);transition:transform .12s linear,width .25s,height .25s,border-color .25s}
+    .cursor.hovered{width:20px;height:20px;opacity:.6}
+    .cursor-ring.hovered{width:56px;height:56px;border-color:#5cb85c}
+  </style>
+</head>
+<body class="service-detail-body">
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo"><span class="logo-text" style="padding: 9%;"><img src="jietlogo.png" alt="jiet Logo" width="250"></span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-dropdown">
+          <a href="services.html" class="nav-link dropdown-toggle active">Services</a>
+          <div class="dropdown-menu">
+            <a href="services.html" class="dropdown-item">All Services</a>
+            <a href="service-ss-ms-fabrication.html" class="dropdown-item">SS &amp; MS Fabrication</a>
+            <a href="service-fabrication-erection-equipment.html" class="dropdown-item">Fabrication &amp; Erection of Equipment</a>
+            <a href="service-fabrication-erection-pipelines.html" class="dropdown-item">Fabrication and Erection of Pipelines</a>
+            <a href="service-fabrication-erection-structures.html" class="dropdown-item">Fabrication &amp; Erection of Structures</a>
+            <a href="service-industrial-painting-epoxy.html" class="dropdown-item">Industrial Painting &amp; Epoxy Services</a>
+            <a href="service-hot-cold-insulations.html" class="dropdown-item">Hot &amp; Cold Insulations</a>
+            <a href="service-amc-chemical-pharma.html" class="dropdown-item">AMC Services of Chemical and Pharmaceutical Plants</a>
+          </div>
+        </li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="svc-hero" id="serviceHero">
+    <div class="svc-hero-bg" style="background-image: url('service-7.jpg')"></div>
+    <div class="svc-hero-overlay"></div>
+    <div class="svc-hero-texture"></div>
+    <div class="svc-hero-content">
+      <a href="services.html" class="svc-breadcrumb reveal-up"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M15 19l-7-7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> Back to Services</a>
+      <p class="svc-hero-tag reveal-up">Service Detail</p>
+      <h1 class="svc-hero-title reveal-up delay-1">AMC Services for <span class="text-green">Chemical &amp; Pharma</span> Plants</h1>
+      <p class="svc-hero-sub reveal-up delay-2">Annual maintenance contract services to maintain uptime, safety, and performance of plant systems.</p>
+    </div>
+  </section>
+
+  <main class="svc-main">
+    <section class="svc-about section">
+      <div class="container">
+        <div class="svc-about-grid">
+          <div class="svc-img-wrap fade-in-left">
+            <div class="svc-img-frame">
+              <img src="service-7.jpg" alt="AMC services for chemical and pharmaceutical plants" loading="eager" />
+              <div class="svc-img-badge"><span class="svc-badge-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#5cb85c" stroke-width="2" stroke-linecap="round"/></svg></span><span>Certified Quality</span></div>
+            </div>
+          </div>
+          <div class="svc-text fade-in-right">
+            <p class="section-tag">About This Service</p>
+            <h2 class="section-title">Annual Maintenance <span class="text-green">Contract</span> Services</h2>
+            <p class="svc-desc">Annual maintenance contract services for chemical and pharmaceutical plants to maintain uptime, safety, and performance.</p>
+            <p class="svc-desc">Our AMC model covers routine inspection, preventive maintenance, service scheduling, and technical response support to reduce unplanned downtime and improve system life.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="svc-features section bg-light">
+      <div class="container">
+        <div class="section-header fade-in">
+          <p class="section-tag">Key Features</p>
+          <h2 class="section-title">Why Choose Our <span class="text-green">AMC Services</span></h2>
+        </div>
+        <div class="svc-features-grid">
+          <div class="svc-feature-card fade-in" style="--delay: 0s">
+            <div class="svc-feature-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M9 12h6m-6 4h6M7 4h10a2 2 0 012 2v12a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2zm2 0v2m6-2v2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Preventive Maintenance</h3>
+            <p>Planned preventive maintenance for critical systems ensuring continuous and reliable operation.</p>
+          </div>
+          <div class="svc-feature-card fade-in" style="--delay: 0.1s">
+            <div class="svc-feature-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Breakdown Response</h3>
+            <p>Rapid breakdown support and corrective intervention to minimize downtime impact.</p>
+          </div>
+          <div class="svc-feature-card fade-in" style="--delay: 0.2s">
+            <div class="svc-feature-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Health Checks &amp; Records</h3>
+            <p>Periodic health checks and detailed maintenance records for audit trail and compliance.</p>
+          </div>
+          <div class="svc-feature-card fade-in" style="--delay: 0.3s">
+            <div class="svc-feature-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <h3>Production-Aligned Planning</h3>
+            <p>Service planning aligned with production schedules to minimize disruption to operations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="svc-cta">
+      <div class="svc-cta-bg"></div>
+      <div class="container svc-cta-content fade-in">
+        <div class="svc-cta-text"><h2>Need AMC Services for Your Plant?</h2><p>Contact us today for a consultation and free quote on your maintenance needs.</p></div>
+        <div class="svc-cta-actions"><a href="index.html#contact" class="btn btn-white">Get a Free Quote</a><a href="services.html" class="btn btn-outline-white">View All Services</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top"><div class="container footer-grid">
+      <div class="footer-brand"><a href="index.html" class="nav-logo footer-logo"><span class="logo-icon">N</span><span class="logo-text">Nova<strong>Corp</strong></span></a><p>World-class B2B manufacturing solutions trusted by global leaders across pharmaceutical, industrial, and chemical sectors.</p></div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="index.html#contact">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Our Services</h4><ul><li><a href="service-ss-ms-fabrication.html">SS & MS Fabrication</a></li><li><a href="service-fabrication-erection-equipment.html">Equipment Fabrication</a></li><li><a href="service-fabrication-erection-pipelines.html">Pipeline Services</a></li><li><a href="service-fabrication-erection-structures.html">Structural Work</a></li><li><a href="service-industrial-painting-epoxy.html">Industrial Painting</a></li><li><a href="service-hot-cold-insulations.html">Insulation Services</a></li></ul></div>
+      <div class="footer-col"><h4>Contact Info</h4><div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke="#5cb85c" stroke-width="2"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke="#5cb85c" stroke-width="2"/></svg><span>Plot 42, Industrial Area, Chandigarh, India</span></div><div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke="#5cb85c" stroke-width="2"/></svg><span>+91 123 456 7890</span></div><div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="#5cb85c" stroke-width="2" stroke-linecap="round"/></svg><span>info@novacorpsolutions.com</span></div><div class="footer-certifications"><span class="cert-badge">ISO 9001</span><span class="cert-badge">GMP</span><span class="cert-badge">WHO</span></div></div>
+    </div></div>
+    <div class="footer-bottom"><div class="container footer-bottom-inner"><p>&copy; 2025 NovaCorp Solutions. All Rights Reserved.</p><div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Sitemap</a></div></div></div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" onclick="scrollToTop()"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 15l7-7 7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <script src="script.js"></script>
+  <script>const cursor=document.getElementById('cursor'),ring=document.getElementById('cursorRing');let mouseX=0,mouseY=0,ringX=0,ringY=0;document.addEventListener('mousemove',e=>{mouseX=e.clientX;mouseY=e.clientY;cursor.style.left=mouseX+'px';cursor.style.top=mouseY+'px'});function animateRing(){ringX+=(mouseX-ringX)*.14;ringY+=(mouseY-ringY)*.14;ring.style.left=ringX+'px';ring.style.top=ringY+'px';requestAnimationFrame(animateRing)}animateRing();document.querySelectorAll('a, button').forEach(el=>{el.addEventListener('mouseenter',()=>{cursor.classList.add('hovered');ring.classList.add('hovered')});el.addEventListener('mouseleave',()=>{cursor.classList.remove('hovered');ring.classList.remove('hovered')})});</script>
+</body>
+</html>
